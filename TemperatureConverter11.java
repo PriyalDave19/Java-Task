@@ -10,8 +10,7 @@ class TemperatureConverter11{
 		
 		c = 5*(f-32)/9.0f;
 		
-		System.out.println(f + "  = "+c+"degrees");
-		
+		System.out.println(f + "  f =  "+c+" degrees");
 		
 	} 
 	

@@ -23,9 +23,9 @@ class SwapWithoutThirdVar_12{
 		
 		System.out.println("Before Swapping a = "+a+" b = "+b);
 		
-		a = a+b;   // a = 10+5 = 15
-		b = a-b;   // b = 15-5 = 10
-		a = a-b;  // b = 15-10 = 5
+		a = a*b;   // a = 10+5 = 15
+		b = a/b;   // b = 15-5 = 10
+		a = a/b;  // b = 15-10 = 5
 		
 		System.out.println("After Swapping a = "+a+" b = "+b);
 		

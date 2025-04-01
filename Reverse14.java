@@ -7,12 +7,12 @@ class Reverse14{
 		Scanner sc = new Scanner(System.in);
 		
 		n = sc.nextInt();
-		
+	
 		while(n != 0){
 			rem = n%10;
 			  n = n/10;
 			rev = (rev*10)+rem;
 		}
-		System.out.println("Reverse = "+rev);
+			System.out.println("Reverse = "+rev);
 	}
 }
