@@ -1,21 +1,28 @@
 import java.util.Scanner;
-class Pyramid_1_3_5{
+class NLoop{
 	public static void main(String [] args){
 		
 		int i ,j,k,n;
+		char p = 'A';
 		
-		Scannersc = new Scanner(System.in);
+		Scanner sc = new Scanner(System.in);
 		System.out.println("N = ");
 		n = sc.nextInt();
 		
-		for(i = 0 ; i < n ; i++){
-			for(k = 0 ; k < ; k++){
+		for(i = 0 ; i < n ;i++){
+			for(k = n-i-1; k > 0; k--){
 				System.out.print(" ");
 			}
-			for(j =  ; j ; j){
-				
-				
+			p ='A';
+			for(j = 1; j <= i+1 ;j++){
+				System.out.print(p);
+				p++;
 			}
+			p = 'A';
+			for(j = i; j >= 1 ;j--){
+				System.out.print(p);
+			}
+			System.out.print("\n");
 		}
 	}
 }

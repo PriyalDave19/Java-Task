@@ -1,6 +1,6 @@
 import java.util.Scanner;
-class GreatestInto3_16{
-	public static void main(String [] args){}{
+class Greatest_Into3_16{
+	public static void main(String [] args){
 
 	int a,b,c;
 	
@@ -23,8 +23,8 @@ class GreatestInto3_16{
 	if(a>b && a>c)
 		System.out.println("a is greater");
 	else if(b>c)
-		System.out.println("b is grater");
+		System.out.println("b is greater");
 	else
-		System.out.println("c is grater");
+		System.out.println("c is greater");
 	}
 }
